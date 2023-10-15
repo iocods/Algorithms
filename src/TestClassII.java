@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class TestClassII {
     public static void main(String args[] ) throws Exception {
+
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        int arraySize = reader.read();
+//        reader.readLine();
+//        builder.append(initialMex).append(' ');
+//        StringBuilder builder = new StringBuilder("");
         Scanner stdin = new Scanner(System.in);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int numberOfTestCases = stdin.nextInt();
